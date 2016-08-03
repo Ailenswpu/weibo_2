@@ -16,5 +16,8 @@ module WeiboOAuth2
 
     class UnauthorizedError < WeiboError
     end
+
+    class PermissionError < WeiboError
+    end
   end
 end
